@@ -1,0 +1,46 @@
+.container{
+    border: solid black;
+    height: 700px;
+    width: 500px;
+    display: grid;
+}
+
+.screen{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    border-bottom: solid black;
+    color: black;
+    flex-direction: row-reverse;
+    font-size: 20px;
+}
+.number{
+    display: flex;
+}
+
+.numbers{
+    height: 50px;
+    width: 50px;
+    border: solid black;
+    margin: 0 20px 20px 20px;
+    flex-wrap: wrap-reverse;
+}
+
+.operator{
+    display: flex;
+}
+.operate{
+    height: 60px;
+    width: 50px;
+    border: solid black;
+    flex-wrap: wrap-reverse;
+    background-color: black;
+    color: white;
+}
+
+.endKey{
+    height: 60px;
+    width: 50px;
+    border: solid black;
+}
